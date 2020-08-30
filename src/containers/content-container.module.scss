@@ -1,0 +1,7 @@
+.contentContainer {
+
+    h1::selection, P::selection, span::selection {
+        color: #F3F3F3;
+        background: rgba(73, 52, 194, 0.5);
+    }
+}

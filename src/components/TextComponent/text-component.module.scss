@@ -1,0 +1,17 @@
+.textWrapper {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.textSentence {
+    transition: all .2s;
+    outline: none;
+    font-size: 18px;
+    line-height: 24px;
+    /*text-decoration: line-through;*/
+
+    &:focus {
+        background: rgba(121, 110, 184, 0.2);
+    }
+}
