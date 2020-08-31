@@ -12,6 +12,18 @@
     /*text-decoration: line-through;*/
 
     &:focus {
+        animation: onTextFocus ease-in-out 1s;
+    }
+}
+
+@keyframes onTextFocus {
+    from {
         background: rgba(121, 110, 184, 0.2);
     }
+    to {
+        background: none;
+    }
+}
+.textSentence_pre {
+    white-space: pre;
 }
